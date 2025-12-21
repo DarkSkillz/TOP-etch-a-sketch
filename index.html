@@ -9,18 +9,22 @@
     <script src="app.js"></script>
 </head>
 
-<body>
-    <h1 class="title">Etch A Sketch</h1>
-    <button class="reset">Reset Sketch</button>
-    <div class="drawing-space"></div>
-    <div class="knob-container">
+<body class="flex">
+    <header class="upper-container flex">
+        <h1>The Odin Project</h1>
+        <h1 class="title">Etch A Sketch</h1>
+        <button class="reset">Reset Sketch</button>
+    </header>
+    <main>
+    </main>
+    <footer class="lower-container flex">
         <div class="knob" id="knob-left"></div>
-        <div class="text-container">
+        <div class="text-container flex">
             <p>"A" and "D" or "left arrow" and "right arrow" for horizontal</p>
             <p>"W" and "S" or "up arrow" and "down arrow" for vertical</p>
         </div>
         <div class="knob" id="knob-right"></div>
-    </div>
+    </footer>
 </body>
 
 </html>
