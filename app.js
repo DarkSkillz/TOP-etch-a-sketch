@@ -17,12 +17,14 @@ function draw(e) {
         posX += drawDistance
         ctx.moveTo(posX,posY)
     }
+    /* support for both AZERTY and QWERTY */
     if (e.key == "ArrowLeft" || e.key == "q" || e.key == "a") {
         ctx.lineTo(posX - drawDistance, posY)
         ctx.stroke()
         posX -= drawDistance
         ctx.moveTo(posX,posY)
     }
+    /* support for both AZERTY and QWERTY */
     if (e.key == "ArrowUp" || e.key == "z" || e.key == "w") {
         ctx.lineTo(posX, posY - drawDistance)
         ctx.stroke()
