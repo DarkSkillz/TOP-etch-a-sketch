@@ -6,6 +6,7 @@
 
 html {
     font-family: roboto, verdana, sans-serif;
+    overflow: hidden;
 }
 
 .flex {
@@ -14,6 +15,7 @@ html {
 
 header {
     justify-content: space-between;
+    align-items: center;
     margin: 10px 30px;
     color: gold;
 }
@@ -26,6 +28,7 @@ header {
 
 .title {
     text-align: center;
+    font-size: 40px;
 }
 
 body {
@@ -35,7 +38,7 @@ body {
     justify-content: space-between;
 }
 
-main {
+canvas {
     background-color: #ffffff;
     width: 1650px;
     height: 750px;

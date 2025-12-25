@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch A Sketch</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 
 <body class="flex">
-    <header class="upper-container flex">
-        <h1>The Odin Project</h1>
+    <header class="flex">
         <h1 class="title">Etch A Sketch</h1>
         <button class="reset">Reset Sketch</button>
     </header>
-    <main>
-    </main>
-    <footer class="lower-container flex">
+    <canvas id="canvas" width="1650" height="750"></canvas>
+    <footer class="flex">
         <div class="knob" id="knob-left"></div>
         <div class="text-container flex">
             <p>"A" and "D" or "left arrow" and "right arrow" for horizontal</p>
