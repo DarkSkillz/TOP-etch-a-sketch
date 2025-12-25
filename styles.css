@@ -20,7 +20,7 @@ header {
     color: gold;
 }
 
-.reset {
+#reset {
     width: 150px;
     height: 35px;
     font-size: 20px;
@@ -40,8 +40,6 @@ body {
 
 canvas {
     background-color: #ffffff;
-    width: 1650px;
-    height: 750px;
     align-self: center;
 }
 
