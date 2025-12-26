@@ -38,9 +38,17 @@ body {
     justify-content: space-between;
 }
 
-canvas {
+.canvas-container {
+    justify-content: center;
+}
+
+#canvas {
     background-color: #ffffff;
     align-self: center;
+}
+
+#inner-canvas {
+    position: absolute;
 }
 
 footer {
